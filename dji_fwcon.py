@@ -81,9 +81,10 @@ dji_targets = [
     DjiModuleTarget(25,-1, "IMU",     "inertial measurement unit"),
     DjiModuleTarget(25, 0, "IMUA3M0", "inertial measurement unit 'A3' pt0"),
     DjiModuleTarget(25, 1, "IMUA3M1", "inertial measurement unit 'A3' pt1"),
-    DjiModuleTarget(29,-1, "PMU",     "phasor measurement unit"),
-    DjiModuleTarget(29, 0, "PMUA3LDR","phasor measurement unit 'A3 App'"),
-    DjiModuleTarget(29, 1, "PMUA3APP","phasor measurement unit 'A3 Ldr'"),
+    DjiModuleTarget(29,-1, "PMU",     "power mmanagement unit"),
+    DjiModuleTarget(29, 0, "PMUA3LDR","power mmanagement unit"),
+
+    DjiModuleTarget(29, 1, "PMUA3APP","power mmanagement unit"),
     DjiModuleTarget(30,-1, "TESTA",   "test A"),
     DjiModuleTarget(31,-1, "TESTB",   "test B")
 ]
